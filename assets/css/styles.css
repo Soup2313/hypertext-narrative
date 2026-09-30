@@ -1,5 +1,26 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+
+body {
+  background-color: #111610;
+  color: #199515;
+  font-family: 'Silkscreen', monospace;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #199515;
+  margin: 32px 0;
 }
